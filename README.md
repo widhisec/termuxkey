@@ -1,2 +1,5 @@
-# termuxkey
-Muculkan Tombol Pintasan Termux Enjoyy
+```
+apt install wget
+wget https://git.io/termuxkey
+bash termuxkey.sh
+```
