@@ -1,5 +1,11 @@
 #!/bin/bash
 # dibuat oleh widhisec pada tanggal : 24 mey 2019
+if $(command -v tput >/dev/null 2>&1); then
+    echo -e "found"
+else
+    echo -e "tput not found"
+fi
+ncurses-utils
 mainn(){
         mkdir /data/data/com.termux/files/home/.termux
         key="extra-keys = [['ESC','/','-','HOME','UP','END','PGUP'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN']]"
